@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{39FCC244-A49
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examen.Repositories", "Examen.Repositories\Examen.Repositories.csproj", "{DE86744D-1A26-4033-A5D4-0B65146ED809}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examen.UnitOfWork", "Examen.UnitOfWork\Examen.UnitOfWork.csproj", "{82EE9992-E06D-4A68-80E1-F3C1D25DF4B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DE86744D-1A26-4033-A5D4-0B65146ED809}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE86744D-1A26-4033-A5D4-0B65146ED809}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE86744D-1A26-4033-A5D4-0B65146ED809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82EE9992-E06D-4A68-80E1-F3C1D25DF4B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82EE9992-E06D-4A68-80E1-F3C1D25DF4B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82EE9992-E06D-4A68-80E1-F3C1D25DF4B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82EE9992-E06D-4A68-80E1-F3C1D25DF4B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2B6DAF9F-9032-4BD7-A0FD-79FC08790AD4} = {876F7E77-BFEA-4EDB-BC29-D5E48048002F}
 		{DE86744D-1A26-4033-A5D4-0B65146ED809} = {876F7E77-BFEA-4EDB-BC29-D5E48048002F}
+		{82EE9992-E06D-4A68-80E1-F3C1D25DF4B0} = {876F7E77-BFEA-4EDB-BC29-D5E48048002F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB80D104-F5F3-402D-9CD4-C6199E9D1BF9}

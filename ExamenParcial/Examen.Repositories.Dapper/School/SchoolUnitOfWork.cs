@@ -14,11 +14,13 @@ namespace Examen.Repositories.Dapper.School
             Departments = new DepartmentsRepository(connectionString);
             Persons = new PersonsRepository(connectionString);
             Students = new StudentsRepository(connectionString);
+            Users = new UserRepository(connectionString);
         }
 
         public ICourseRepository Courses { get; private set; }
         public IDepartmentRepository Departments { get; private set; }
         public IPersonRepository Persons { get; private set; }
         public IStudentGradeRepository Students { get; private set; }
+        public IUserRepository Users { get; private set; }
     }
 }

@@ -5,55 +5,56 @@ using Examen.Models;
 namespace Examen.WebApi.Controllers
 {
     [Produces("application/json")]
-    [Route("api/Course")]
-    public class CourseController : Controller
+    [Route("api/StudentGrade")]
+    public class StudentGradeController : Controller
     {
         private readonly IUnitOfWork _unit;
-        public CourseController(IUnitOfWork unit)
+        public StudentGradeController(IUnitOfWork unit)
         {
             _unit = unit;
         }
+
         [HttpGet]
         public IActionResult GetList()
         {
-            return Ok(_unit.Courses.GetList());
+            return Ok(_unit.Students.GetList());
         }
 
         [HttpGet]
         [Route("{id:int}")]
         public IActionResult GetById(int id)
         {
-            return Ok(_unit.Courses.GetById(id));
+            return Ok(_unit.Students.GetById(id));
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Course course)
+        public IActionResult Post([FromBody] StudentGrade Student)
         {
             if (ModelState.IsValid)
             {
-                return Ok(_unit.Courses.Insert(course));
+                return Ok(_unit.Students.Insert(Student));
             }
             return BadRequest(ModelState);
 
         }
 
         [HttpPut]
-        public IActionResult Put([FromBody] Course course)
+        public IActionResult Put([FromBody] StudentGrade Student)
         {
-            if (ModelState.IsValid && _unit.Courses.Update(course))
+            if (ModelState.IsValid && _unit.Students.Update(Student))
             {
-                return Ok(new { Message = "The Course is Updated" });
+                return Ok(new { Message = "The StudentGrade is Updated" });
             }
             return BadRequest(ModelState);
 
         }
 
         [HttpDelete]
-        public IActionResult Delete([FromBody] Course course)
+        public IActionResult Delete([FromBody] StudentGrade Student)
         {
-            if (course.CourseID > 0)
+            if (Student.StudentID > 0)
             {
-                return Ok(_unit.Courses.Delete(course));
+                return Ok(_unit.Students.Delete(Student));
             }
             return BadRequest(new { Message = "Incorrect data" });
 

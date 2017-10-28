@@ -14,3 +14,4 @@ C:\Users\Victor.Moreno\Source\Repos\CibertecExamenParcial\ExamenParcial\Examen.M
 C:\Users\Victor.Moreno\Source\Repos\CibertecExamenParcial\ExamenParcial\Examen.Models\obj\Debug\netcoreapp2.0\Examen.Models.AssemblyInfo.cs
 C:\Users\Victor.Moreno\Source\Repos\CibertecExamenParcial\ExamenParcial\Examen.Models\obj\Debug\netcoreapp2.0\Examen.Models.dll
 C:\Users\Victor.Moreno\Source\Repos\CibertecExamenParcial\ExamenParcial\Examen.Models\obj\Debug\netcoreapp2.0\Examen.Models.pdb
+C:\Users\Victor.Moreno\Source\Repos\CibertecExamenParcial\ExamenParcial\Examen.Models\obj\Debug\netcoreapp2.0\Examen.Models.csprojResolveAssemblyReference.cache

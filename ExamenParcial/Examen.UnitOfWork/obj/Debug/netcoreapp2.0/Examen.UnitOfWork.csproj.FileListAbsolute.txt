@@ -11,3 +11,16 @@ E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\obj\Deb
 E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\obj\Debug\netcoreapp2.0\Examen.UnitOfWork.AssemblyInfo.cs
 E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\obj\Debug\netcoreapp2.0\Examen.UnitOfWork.dll
 E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\obj\Debug\netcoreapp2.0\Examen.UnitOfWork.pdb
+C:\Users\Victor.Moreno\Source\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\bin\Debug\netcoreapp2.0\Examen.UnitOfWork.deps.json
+C:\Users\Victor.Moreno\Source\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\bin\Debug\netcoreapp2.0\Examen.UnitOfWork.dll
+C:\Users\Victor.Moreno\Source\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\bin\Debug\netcoreapp2.0\Examen.UnitOfWork.pdb
+C:\Users\Victor.Moreno\Source\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\bin\Debug\netcoreapp2.0\Examen.Models.dll
+C:\Users\Victor.Moreno\Source\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\bin\Debug\netcoreapp2.0\Examen.Repositories.dll
+C:\Users\Victor.Moreno\Source\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\bin\Debug\netcoreapp2.0\Examen.Repositories.pdb
+C:\Users\Victor.Moreno\Source\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\bin\Debug\netcoreapp2.0\Examen.Models.pdb
+C:\Users\Victor.Moreno\Source\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\obj\Debug\netcoreapp2.0\Examen.UnitOfWork.csprojResolveAssemblyReference.cache
+C:\Users\Victor.Moreno\Source\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\obj\Debug\netcoreapp2.0\Examen.UnitOfWork.csproj.CoreCompileInputs.cache
+C:\Users\Victor.Moreno\Source\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\obj\Debug\netcoreapp2.0\Examen.UnitOfWork.AssemblyInfoInputs.cache
+C:\Users\Victor.Moreno\Source\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\obj\Debug\netcoreapp2.0\Examen.UnitOfWork.AssemblyInfo.cs
+C:\Users\Victor.Moreno\Source\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\obj\Debug\netcoreapp2.0\Examen.UnitOfWork.dll
+C:\Users\Victor.Moreno\Source\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\obj\Debug\netcoreapp2.0\Examen.UnitOfWork.pdb

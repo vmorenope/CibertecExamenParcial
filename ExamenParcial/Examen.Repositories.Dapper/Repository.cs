@@ -10,15 +10,17 @@ namespace Examen.Repositories.Dapper
 
         public Repository(string connectionString)
         {
-            SqlMapperExtensions.TableNameMapper = (type) => { return $"[{type.Name}]"; };
+            SqlMapperExtensions.TableNameMapper = (Type) => { return $"[{Type.Name}]"; };
             _connectionString = connectionString;
         }
+
         public bool Delete(T entity)
         {
             using (var connection = new SqlConnection(_connectionString))
             {
                 return connection.Delete(entity);
             }
+
         }
 
         public T GetById(int id)
@@ -35,25 +37,22 @@ namespace Examen.Repositories.Dapper
             {
                 return connection.GetAll<T>();
             }
-
         }
 
         public int Insert(T entity)
         {
             using (var connection = new SqlConnection(_connectionString))
             {
-                return (int)connection.Insert(entity);
+                return (int)connection.Insert<T>(entity);
             }
-
         }
 
         public bool Update(T entity)
         {
             using (var connection = new SqlConnection(_connectionString))
             {
-                return connection.Update(entity);
+                return connection.Update<T>(entity);
             }
-
         }
     }
 }

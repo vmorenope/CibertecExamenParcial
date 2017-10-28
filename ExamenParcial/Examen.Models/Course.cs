@@ -1,11 +1,10 @@
-﻿//using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+﻿using Dapper.Contrib.Extensions;
 
 namespace Examen.Models
 {
-    [Table("Course")]
     public class Course
     {
+        [Key]
         public int CourseID { get; set; }
         public string Title { get; set; }
         public int Credits { get; set; }

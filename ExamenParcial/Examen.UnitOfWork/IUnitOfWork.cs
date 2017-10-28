@@ -8,5 +8,6 @@ namespace Examen.UnitOfWork
         IDepartmentRepository Departments { get; }
         IPersonRepository Persons { get; }
         IStudentGradeRepository Students { get; }
+        IUserRepository Users { get; }
     }
 }

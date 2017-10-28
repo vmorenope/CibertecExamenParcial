@@ -726,6 +726,9 @@
       "Examen.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Dapper.Contrib": "1.50.0"
+        },
         "compile": {
           "bin/placeholder/Examen.Models.dll": {}
         },
@@ -3114,7 +3117,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NetAdv-VS\\.nuget\\packages\\": {},
+    "C:\\Users\\Victor.Moreno\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -3123,17 +3126,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\NetAdv-VS\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.Repositories.Dapper\\Examen.Repositories.Dapper.csproj",
+      "projectUniqueName": "C:\\Users\\Victor.Moreno\\Source\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.Repositories.Dapper\\Examen.Repositories.Dapper.csproj",
       "projectName": "Examen.Repositories.Dapper",
-      "projectPath": "E:\\NetAdv-VS\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.Repositories.Dapper\\Examen.Repositories.Dapper.csproj",
-      "packagesPath": "C:\\Users\\NetAdv-VS\\.nuget\\packages\\",
-      "outputPath": "E:\\NetAdv-VS\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.Repositories.Dapper\\obj\\",
+      "projectPath": "C:\\Users\\Victor.Moreno\\Source\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.Repositories.Dapper\\Examen.Repositories.Dapper.csproj",
+      "packagesPath": "C:\\Users\\Victor.Moreno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Victor.Moreno\\Source\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.Repositories.Dapper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\NetAdv-VS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Victor.Moreno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3141,14 +3144,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/autofixture/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\NetAdv-VS\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.UnitOfWork\\Examen.UnitOfWork.csproj": {
-              "projectPath": "E:\\NetAdv-VS\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.UnitOfWork\\Examen.UnitOfWork.csproj"
+            "C:\\Users\\Victor.Moreno\\Source\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.UnitOfWork\\Examen.UnitOfWork.csproj": {
+              "projectPath": "C:\\Users\\Victor.Moreno\\Source\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.UnitOfWork\\Examen.UnitOfWork.csproj"
             }
           }
         }

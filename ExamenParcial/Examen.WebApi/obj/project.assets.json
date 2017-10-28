@@ -4527,7 +4527,7 @@
           "System.Threading": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/_._": {}
+          "ref/netstandard1.3/System.Security.Cryptography.Csp.dll": {}
         },
         "runtimeTargets": {
           "runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Csp.dll": {
@@ -5057,6 +5057,9 @@
       "Examen.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Dapper.Contrib": "1.50.0"
+        },
         "compile": {
           "bin/placeholder/Examen.Models.dll": {}
         },
@@ -5208,7 +5211,7 @@
       ]
     },
     "Microsoft.AspNetCore/2.0.0": {
-      "sha512": "Pp4CNfgJgKTyU+oRQYh6InA1lwcZLi5ZsfTxWwixagbRsVdWrROBFnKGw+FvbbuzKNyMn4Cg5zRv99LjqxVIJA==",
+      "sha512": "F+v3F9iyvOB1No0LYCI/fjiSWlUtLspbb5sWxP9aWl/qLl3dAxPQ76xSqR8SYIyc2AocXmYd+oBe9KBAdcQJOA==",
       "type": "package",
       "path": "microsoft.aspnetcore/2.0.0",
       "files": [
@@ -13246,12 +13249,17 @@
     ".NETCoreApp,Version=v2.0": [
       "Examen.Repositories.Dapper >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 2.0.0",
+      "Microsoft.AspNetCore.Identity >= 2.0.0",
+      "Microsoft.AspNetCore.ResponseCompression >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.0"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.0",
+      "System.IdentityModel.Tokens.Jwt >= 5.1.4",
+      "System.Security.Cryptography.Csp >= 4.3.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NetAdv-VS\\.nuget\\packages\\": {},
+    "C:\\Users\\Victor.Moreno\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -13260,17 +13268,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\NetAdv-VS\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.WebApi\\Examen.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\Victor.Moreno\\Source\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.WebApi\\Examen.WebApi.csproj",
       "projectName": "Examen.WebApi",
-      "projectPath": "E:\\NetAdv-VS\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.WebApi\\Examen.WebApi.csproj",
-      "packagesPath": "C:\\Users\\NetAdv-VS\\.nuget\\packages\\",
-      "outputPath": "E:\\NetAdv-VS\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.WebApi\\obj\\",
+      "projectPath": "C:\\Users\\Victor.Moreno\\Source\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.WebApi\\Examen.WebApi.csproj",
+      "packagesPath": "C:\\Users\\Victor.Moreno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Victor.Moreno\\Source\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\NetAdv-VS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Victor.Moreno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13278,14 +13286,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/autofixture/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\NetAdv-VS\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.Repositories.Dapper\\Examen.Repositories.Dapper.csproj": {
-              "projectPath": "E:\\NetAdv-VS\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.Repositories.Dapper\\Examen.Repositories.Dapper.csproj"
+            "C:\\Users\\Victor.Moreno\\Source\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.Repositories.Dapper\\Examen.Repositories.Dapper.csproj": {
+              "projectPath": "C:\\Users\\Victor.Moreno\\Source\\Repos\\CibertecExamenParcial\\ExamenParcial\\Examen.Repositories.Dapper\\Examen.Repositories.Dapper.csproj"
             }
           }
         }
@@ -13299,16 +13306,36 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "System.IdentityModel.Tokens.Jwt": {
+            "target": "Package",
+            "version": "5.1.4"
+          },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "2.0.0"
+          },
+          "System.Security.Cryptography.Csp": {
+            "target": "Package",
+            "version": "4.3.0"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
           },
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.AspNetCore.ResponseCompression": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
           "Microsoft.AspNetCore.All": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.AspNetCore.Identity": {
             "target": "Package",
             "version": "2.0.0"
           }

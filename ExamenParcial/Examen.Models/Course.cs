@@ -1,5 +1,9 @@
-﻿namespace Examen.Models
+﻿//using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Examen.Models
 {
+    [Table("Course")]
     public class Course
     {
         public int CourseID { get; set; }

@@ -1,7 +1,6 @@
 E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.Models\bin\Debug\netcoreapp2.0\Examen.Models.deps.json
 E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.Models\bin\Debug\netcoreapp2.0\Examen.Models.dll
 E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.Models\bin\Debug\netcoreapp2.0\Examen.Models.pdb
-E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.Models\obj\Debug\netcoreapp2.0\Examen.Models.csprojResolveAssemblyReference.cache
 E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.Models\obj\Debug\netcoreapp2.0\Examen.Models.csproj.CoreCompileInputs.cache
 E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.Models\obj\Debug\netcoreapp2.0\Examen.Models.AssemblyInfoInputs.cache
 E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.Models\obj\Debug\netcoreapp2.0\Examen.Models.AssemblyInfo.cs

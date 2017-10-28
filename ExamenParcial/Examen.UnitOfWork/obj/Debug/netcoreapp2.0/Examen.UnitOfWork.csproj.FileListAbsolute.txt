@@ -1,0 +1,13 @@
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\bin\Debug\netcoreapp2.0\Examen.UnitOfWork.deps.json
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\bin\Debug\netcoreapp2.0\Examen.UnitOfWork.dll
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\bin\Debug\netcoreapp2.0\Examen.UnitOfWork.pdb
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\bin\Debug\netcoreapp2.0\Examen.Models.dll
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\bin\Debug\netcoreapp2.0\Examen.Repositories.dll
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\bin\Debug\netcoreapp2.0\Examen.Repositories.pdb
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\bin\Debug\netcoreapp2.0\Examen.Models.pdb
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\obj\Debug\netcoreapp2.0\Examen.UnitOfWork.csprojResolveAssemblyReference.cache
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\obj\Debug\netcoreapp2.0\Examen.UnitOfWork.csproj.CoreCompileInputs.cache
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\obj\Debug\netcoreapp2.0\Examen.UnitOfWork.AssemblyInfoInputs.cache
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\obj\Debug\netcoreapp2.0\Examen.UnitOfWork.AssemblyInfo.cs
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\obj\Debug\netcoreapp2.0\Examen.UnitOfWork.dll
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.UnitOfWork\obj\Debug\netcoreapp2.0\Examen.UnitOfWork.pdb

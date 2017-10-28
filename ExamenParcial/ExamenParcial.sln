@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examen.UnitOfWork", "Examen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examen.Repositories.Dapper", "Examen.Repositories.Dapper\Examen.Repositories.Dapper.csproj", "{989FF157-BDBD-42A5-8DFB-4C6E8AAD0BFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examen.WebApi", "Examen.WebApi\Examen.WebApi.csproj", "{2AC3DA6E-F6CA-4F11-A0C2-DFFD57332D6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{989FF157-BDBD-42A5-8DFB-4C6E8AAD0BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{989FF157-BDBD-42A5-8DFB-4C6E8AAD0BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{989FF157-BDBD-42A5-8DFB-4C6E8AAD0BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC3DA6E-F6CA-4F11-A0C2-DFFD57332D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC3DA6E-F6CA-4F11-A0C2-DFFD57332D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC3DA6E-F6CA-4F11-A0C2-DFFD57332D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC3DA6E-F6CA-4F11-A0C2-DFFD57332D6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{DE86744D-1A26-4033-A5D4-0B65146ED809} = {876F7E77-BFEA-4EDB-BC29-D5E48048002F}
 		{82EE9992-E06D-4A68-80E1-F3C1D25DF4B0} = {876F7E77-BFEA-4EDB-BC29-D5E48048002F}
 		{989FF157-BDBD-42A5-8DFB-4C6E8AAD0BFE} = {876F7E77-BFEA-4EDB-BC29-D5E48048002F}
+		{2AC3DA6E-F6CA-4F11-A0C2-DFFD57332D6D} = {39FCC244-A492-4B2E-91E9-230D02AA6FCB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB80D104-F5F3-402D-9CD4-C6199E9D1BF9}

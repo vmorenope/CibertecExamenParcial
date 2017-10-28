@@ -6,3 +6,10 @@ E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.Repositories.Dappe
 E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.Repositories.Dapper\obj\Debug\netcoreapp2.0\Examen.Repositories.Dapper.csproj.CoreCompileInputs.cache
 E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.Repositories.Dapper\obj\Debug\netcoreapp2.0\Examen.Repositories.Dapper.AssemblyInfoInputs.cache
 E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.Repositories.Dapper\obj\Debug\netcoreapp2.0\Examen.Repositories.Dapper.AssemblyInfo.cs
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.Repositories.Dapper\bin\Debug\netcoreapp2.0\Examen.Repositories.Dapper.deps.json
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.Repositories.Dapper\bin\Debug\netcoreapp2.0\Examen.Repositories.Dapper.dll
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.Repositories.Dapper\bin\Debug\netcoreapp2.0\Examen.Repositories.Dapper.pdb
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.Repositories.Dapper\bin\Debug\netcoreapp2.0\Examen.UnitOfWork.pdb
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.Repositories.Dapper\bin\Debug\netcoreapp2.0\Examen.Repositories.pdb
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.Repositories.Dapper\obj\Debug\netcoreapp2.0\Examen.Repositories.Dapper.dll
+E:\NetAdv-VS\Repos\CibertecExamenParcial\ExamenParcial\Examen.Repositories.Dapper\obj\Debug\netcoreapp2.0\Examen.Repositories.Dapper.pdb

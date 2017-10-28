@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Examen.UnitOfWork/1.0.0": {
+        "dependencies": {
+          "Examen.Repositories": "1.0.0"
+        },
+        "runtime": {
+          "Examen.UnitOfWork.dll": {}
+        }
+      },
+      "Examen.Models/1.0.0": {
+        "runtime": {
+          "Examen.Models.dll": {}
+        }
+      },
+      "Examen.Repositories/1.0.0": {
+        "dependencies": {
+          "Examen.Models": "1.0.0"
+        },
+        "runtime": {
+          "Examen.Repositories.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Examen.UnitOfWork/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Examen.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Examen.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
